@@ -1,7 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import * as snippet from '@segment/snippet';
 
-const { ANALYTICS_WRITE_KEY } = process.env;
+const { ANALYTICS_WRITE_KEY, NODE_ENV } = process.env;
 
 class MyDocument extends Document {
   /*
